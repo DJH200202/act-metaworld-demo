@@ -1,0 +1,15 @@
+{
+  "checkpoint_step": 4000,
+  "files": [
+    "policy_preprocessor_step_3_normalizer_processor.safetensors",
+    "config.json",
+    "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+    "policy_preprocessor.json",
+    "model.safetensors",
+    "policy_postprocessor.json"
+  ],
+  "sha256": "72efe74625629745d6c6b59f96dffcabd0ffdd5b708021d70ceb59e8ad05d3d5",
+  "bytes": 191416689,
+  "repository": "DJH200202/act-metaworld-demo",
+  "release": "v0.1.0"
+}

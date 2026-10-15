@@ -1,0 +1,41 @@
+{
+  "rule": "highest selection success rate; tie: lowest full validation action L1; tie: latest step",
+  "candidates": [
+    {
+      "step": 1000,
+      "checkpoint": "outputs/act_ddp5000/checkpoints/001000/pretrained_model",
+      "selection_success_rate": 0.85,
+      "validation_l1": 0.14547429767806236
+    },
+    {
+      "step": 2000,
+      "checkpoint": "outputs/act_ddp5000/checkpoints/002000/pretrained_model",
+      "selection_success_rate": 1.0,
+      "validation_l1": 0.10097840830701263
+    },
+    {
+      "step": 3000,
+      "checkpoint": "outputs/act_ddp5000/checkpoints/003000/pretrained_model",
+      "selection_success_rate": 1.0,
+      "validation_l1": 0.08221718154007769
+    },
+    {
+      "step": 4000,
+      "checkpoint": "outputs/act_ddp5000/checkpoints/004000/pretrained_model",
+      "selection_success_rate": 1.0,
+      "validation_l1": 0.07121974097467187
+    },
+    {
+      "step": 5000,
+      "checkpoint": "outputs/act_ddp5000/checkpoints/005000/pretrained_model",
+      "selection_success_rate": 1.0,
+      "validation_l1": 0.07910110422472078
+    }
+  ],
+  "selected": {
+    "step": 4000,
+    "checkpoint": "outputs/act_ddp5000/checkpoints/004000/pretrained_model",
+    "selection_success_rate": 1.0,
+    "validation_l1": 0.07121974097467187
+  }
+}

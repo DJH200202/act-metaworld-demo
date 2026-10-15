@@ -1,0 +1,13 @@
+{
+  "task": "push-v3",
+  "fps": 80,
+  "protocol": "successful expert demonstrations",
+  "train": {
+    "episodes": 500,
+    "frames": 30735
+  },
+  "val": {
+    "episodes": 100,
+    "frames": 6086
+  }
+}
