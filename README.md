@@ -48,6 +48,8 @@ flowchart LR
 已验证环境为 **Linux、Python 3.12、CUDA 12.6**。演示推理可以使用一张 GPU；也提供 CPU 选项，但 CPU 的完整回放没有作为本次性能基准。
 
 ```bash
+git clone https://github.com/DJH200202/act-metaworld-demo.git
+cd act-metaworld-demo
 python3.12 -m venv .venv
 source .venv/bin/activate
 
